@@ -10,7 +10,7 @@ import rootReducer from './reducers/';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import './index.css';
-import App from './components/App/App';
+import App from './App/App';
 
 const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(), applyMiddleware(thunk, logger));
 
