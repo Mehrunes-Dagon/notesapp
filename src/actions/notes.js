@@ -9,7 +9,7 @@ export const SORT_OLDEST = 'SORT_OLDEST';
 export const FETCH_NOTES = 'FETCH_NOTES';
 export const SEARCH = 'SEARCH';
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = '';
+axios.defaults.baseURL = 'https://bills-notes.herokuapp.com/';
 
 export const fetchNotes = () => {
     return dispatch => {

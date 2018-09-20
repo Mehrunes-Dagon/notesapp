@@ -5,7 +5,7 @@ export const REGISTER = 'REGISTER';
 export const SIGNIN = 'SIGNIN';
 export const SIGNOUT = 'SIGNOUT';
 export const ERROR_SIGNIN = 'ERROR_SIGNIN';
-axios.default.baseURL = '';
+axios.default.baseURL = 'https://bills-notes.herokuapp.com/';
 
 export const register = user => {
     return dispatch => {
