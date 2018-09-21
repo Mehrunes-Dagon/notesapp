@@ -4,7 +4,6 @@ import { Route } from 'react-router-dom';
 import { Row, Col } from 'reactstrap';
 import { createNote, search } from '../actions/notes';
 
-//Components
 import Menu from '../components/Menu';
 import Landing from '../components/Landing';
 import Register from '../components/Register';
@@ -15,7 +14,7 @@ import Edit from '../components/Edit';
 import Create from '../components/Create';
 import Note from '../components/Note';
 import './App.css';
-
+//?
 class App extends Component {
   render() {
     return (
